@@ -8,5 +8,9 @@
 
 import Foundation
 
-print("Hello, World!")
+let root = Node(value : "root")
+let node1 = Node(value: "node 1")
+let node2 = Node(value : "node 2")
+root.add(child: node1)
+root.add(child: node2)
 
