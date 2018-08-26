@@ -13,4 +13,8 @@ let node1 = Node(value: "node 1")
 let node2 = Node(value : "node 2")
 root.add(child: node1)
 root.add(child: node2)
+node1.add(child: Node.init(value: "Hello"))
+node1.add(child: Node.init(value: "How are you"))
+print(root)
+
 
